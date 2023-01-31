@@ -1,0 +1,24 @@
+
+
+.input {
+  background-color: var(--bg-color-element);
+  color: var(--color-text);
+  ::placeholder {
+    color: var(--color-text);
+  }
+  
+  @apply shadow-md px-12 py-2 rounded-md outline-none w-full ;
+}
+
+.inputWrap {
+  @apply relative ;
+}
+
+.icon {
+  @apply text-2xl absolute top-1/2 left-4 -translate-y-1/2 ;
+}
+
+
+.errName {
+  @apply text-red-600 absolute top-10 left-0 ;
+}

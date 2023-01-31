@@ -1,0 +1,26 @@
+.contryWrap {
+  @apply w-full justify-self-center md:justify-self-auto shadow-md hover:scale-105 transition-all;
+
+  .image {
+    
+    img{
+      @apply w-full h-52 object-cover rounded-t-md ;
+    }
+  }
+
+  .body{
+    background-color: var(--bg-color-element);
+    color: var(--color-text);
+    @apply px-4 py-6 rounded-b-md ;
+    .name {
+      @apply font-bold mb-3 text-xl ;
+    }
+
+    .item {
+      @apply mb-1 ;
+      span {
+        @apply font-light ;
+      }
+    }
+  }
+}

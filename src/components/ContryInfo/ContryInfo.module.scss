@@ -1,0 +1,44 @@
+
+.wrap {
+ @apply w-full flex flex-col items-center lg:flex-row lg:justify-between ;
+ 
+  .image {
+    //@apply w-full mb-4 md:w-2/3 lg:w-2/5 xl:w-1/2  ;
+    img {
+      @apply w-full h-48 md:h-72 lg:w-[80%] lg:h-80 xl:h-96 object-cover ;
+    }
+  }
+
+  .body{
+    color: var(--color-text);
+    .name{
+      @apply font-bold text-3xl mb-4 md:text-center mt-6 lg:text-left ;
+    }
+
+    .row{
+      @apply flex flex-col md:flex-row md:items-center md:space-x-16 md:justify-center lg:justify-start ;
+      .col{
+        @apply mb-8 ;
+
+        .item{
+          @apply mb-2 font-bold ;
+
+          span {
+            @apply font-normal ml-2 ;
+          }
+        }
+      }
+    }
+
+    .borders{
+      
+      .borderTitle{
+        @apply font-bold mb-4 ;
+      }
+      .borderItem{
+        background-color: var(--bg-color-element);
+        @apply inline-block font-normal px-4 py-2 mr-2 mb-2 shadow-md ;
+      }
+    }
+  }
+}

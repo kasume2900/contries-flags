@@ -1,0 +1,25 @@
+
+.header {
+  background-color: var(--bg-color-element);
+  @apply shadow-md transition-colors relative z-50 ;
+}
+
+.nav{
+  @apply flex justify-between items-center h-12 ;
+}
+
+.title{
+  @apply font-bold md:text-2xl cursor-pointer ;
+}
+
+.theme{
+  @apply flex items-center space-x-4 cursor-pointer ;
+}
+
+.icon{
+  @apply text-xl ;
+}
+
+.text{
+  
+}
