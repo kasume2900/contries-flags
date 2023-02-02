@@ -18,10 +18,12 @@ html[data-theme='light'] {
   --color-text : #000;
   --bg-color : #FAFAFA;
   --bg-color-element : #fff;
+  --bg-color-hover : rgb(107, 99, 99);
 }
 
 html[data-theme='dark'] {
   --color-text : #fff;
   --bg-color :  #202D36;
   --bg-color-element : #2B3743;
+  --bg-color-hover : rgb(32, 32, 39)
 }

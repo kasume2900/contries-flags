@@ -37,7 +37,10 @@
       }
       .borderItem{
         background-color: var(--bg-color-element);
-        @apply inline-block font-normal px-4 py-2 mr-2 mb-2 shadow-md ;
+        &:hover {
+          background-color: var(--bg-color-hover);
+        }
+        @apply inline-block font-normal px-4 py-2 mr-2 mb-2 shadow-md transition-colors ;
       }
     }
   }
